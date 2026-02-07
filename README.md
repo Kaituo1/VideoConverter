@@ -46,24 +46,17 @@
 
 ### 环境要求
 - Windows操作系统
-- Python 3.6或更高版本
 - FFmpeg（需要安装并添加到系统PATH）
 
 ### 安装步骤
 
-1. **安装Python**
-   - 从[Python官网](https://www.python.org/)下载并安装Python 3.6+
-   - 确保勾选"Add Python to PATH"
-
-2. **安装FFmpeg**
+1. **安装FFmpeg**
    - 从[FFmpeg官网](https://ffmpeg.org/download.html)下载Windows版本
    - 解压下载的文件
    - 将FFmpeg的bin目录添加到系统PATH环境变量
 
-3. **运行程序**
-   - 直接运行`video_converter.exe`文件
-
-
+2. **运行程序**
+   - 直接运行`视频格式转换器.exe`文件
 ## 使用方法
 
 1. **添加文件**
@@ -142,13 +135,13 @@
 ### v1.2.0
 - 修复停止转换后提示成功的问题
 - 添加删除不完整文件功能
+- 删除WEBM和MPG输出格式
 - 优化错误处理
 
 ## 联系我们
 
 如果您在使用过程中遇到问题或有任何建议，欢迎通过以下方式联系我们：
 
-- 提交Issue到GitHub仓库
 - 发送邮件至：rzktys@qq.com
 
 ---
